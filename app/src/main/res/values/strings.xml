@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Varsayy</string>
+    <string name="action_profil">Profil</string>
+    <string name="action_Girş">Giriş Yap</string>
+    <string name="action_kayitol">Kayıt Ol</string>
+    <string name="action_profil_duzenle">Düzenle</string>
+    <string name="action_siparisler">Siparişler</string>
+    <string name="action_kredikartekle">Kredi Kart Ekle</string>
+    <string name="action_kredikartsil">Kredi Kart sil</string>
+    <string name="action_kartlarim">Kartlarım</string>
+</resources>

@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.varsayy.MainActivity">
+    <item
+        android:title=""
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/menu"
+        >
+        <menu>
+        <item
+            android:id="@+id/action_profilduzenle"
+            android:title="Düzenle"
+            android:orderInCategory="100"
+            app:showAsAction="never">
+        </item>
+        <item
+            android:id="@+id/action_siparisler"
+            android:orderInCategory="100"
+            android:title="Siparişler"
+            app:showAsAction="never"
+            />
+            <item
+                android:id="@+id/action_kartlarim"
+                android:orderInCategory="100"
+                android:title="Kartlarım"
+                app:showAsAction="never"
+                />
+        </menu>
+    </item>
+
+</menu>

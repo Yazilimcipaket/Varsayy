@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.varsayy.MainActivity">
+    <item
+        android:title=""
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/menu">
+        <menu>
+            <item
+                android:id="@+id/action_profil"
+                android:title="Profil"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/action_Girş"
+                android:orderInCategory="100"
+                android:title="Giriş Yap"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/action_kayitol"
+                android:orderInCategory="100"
+                android:title="Kayıt Ol"
+                app:showAsAction="never"
+                />
+
+
+
+        </menu>
+    </item>
+
+
+
+</menu>
